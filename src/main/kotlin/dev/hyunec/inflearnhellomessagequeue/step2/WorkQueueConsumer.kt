@@ -1,9 +1,8 @@
 package dev.hyunec.inflearnhellomessagequeue.step2
 
 import io.github.oshai.kotlinlogging.KotlinLogging
-import org.springframework.stereotype.Component
 
-@Component
+//@Component
 class WorkQueueConsumer {
     private val log = KotlinLogging.logger {}
 
