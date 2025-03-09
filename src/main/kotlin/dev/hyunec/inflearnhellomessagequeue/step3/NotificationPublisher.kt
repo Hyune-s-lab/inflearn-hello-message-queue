@@ -2,9 +2,8 @@ package dev.hyunec.inflearnhellomessagequeue.step3
 
 import io.github.oshai.kotlinlogging.KotlinLogging
 import org.springframework.amqp.rabbit.core.RabbitTemplate
-import org.springframework.stereotype.Component
 
-@Component
+//@Component
 class NotificationPublisher(private val rabbitTemplate: RabbitTemplate) {
     private val log = KotlinLogging.logger {}
 

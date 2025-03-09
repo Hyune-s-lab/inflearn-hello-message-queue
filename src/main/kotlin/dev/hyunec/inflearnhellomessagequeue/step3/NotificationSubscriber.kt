@@ -3,9 +3,8 @@ package dev.hyunec.inflearnhellomessagequeue.step3
 import io.github.oshai.kotlinlogging.KotlinLogging
 import org.springframework.amqp.rabbit.annotation.RabbitListener
 import org.springframework.messaging.simp.SimpMessagingTemplate
-import org.springframework.stereotype.Component
 
-@Component
+//@Component
 class NotificationSubscriber(// WebSocket으로 메시지를 전달하기 위한 Spring의 템플릿 클래스.
     private val simpMessagingTemplate: SimpMessagingTemplate,
 ) {

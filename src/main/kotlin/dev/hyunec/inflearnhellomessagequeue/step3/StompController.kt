@@ -3,9 +3,8 @@ package dev.hyunec.inflearnhellomessagequeue.step3
 import io.github.oshai.kotlinlogging.KotlinLogging
 import org.springframework.messaging.handler.annotation.MessageMapping
 import org.springframework.messaging.simp.SimpMessagingTemplate
-import org.springframework.stereotype.Controller
 
-@Controller
+//@Controller
 class StompController(private val messagingTemplate: SimpMessagingTemplate) {
     private val log = KotlinLogging.logger {}
 

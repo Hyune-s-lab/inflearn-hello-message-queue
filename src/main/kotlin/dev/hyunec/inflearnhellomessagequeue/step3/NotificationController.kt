@@ -3,9 +3,8 @@ package dev.hyunec.inflearnhellomessagequeue.step3
 import org.springframework.web.bind.annotation.PostMapping
 import org.springframework.web.bind.annotation.RequestBody
 import org.springframework.web.bind.annotation.RequestMapping
-import org.springframework.web.bind.annotation.RestController
 
-@RestController
+//@RestController
 @RequestMapping("/notifications")
 class NotificationController(private val publisher: NotificationPublisher) {
     @PostMapping
